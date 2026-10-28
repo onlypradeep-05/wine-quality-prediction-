@@ -1,0 +1,63 @@
+# Wine Quality Prediction 🍷
+
+## Project Overview
+This machine learning project predicts whether red wine falls into a higher-quality category based on its physicochemical properties.
+
+The model uses a Random Forest Classifier to classify wine as:
+- **Good Quality:** quality score ≥ 7
+- **Lower Quality:** quality score < 7
+
+These are the categories defined for this project, not a universal wine-quality standard.
+
+## Objectives
+- Perform Exploratory Data Analysis (EDA).
+- Understand relationships between wine features and quality.
+- Train a machine learning classification model.
+- Evaluate the model's performance.
+- Predict wine quality category from input measurements.
+
+## Technologies Used
+- Python
+- Pandas and NumPy
+- Matplotlib and Seaborn
+- Scikit-learn
+- Jupyter Notebook
+- VS Code Editor
+
+## Project Workflow
+1. Load the dataset.
+2. Inspect the data and missing values.
+3. Perform EDA and visualization.
+4. Analyze feature correlations.
+5. Separate features and target.
+6. Split the dataset into training and testing sets.
+7. Train the classification model.
+8. Evaluate performance.
+9. Predict the quality category for new input.
+
+## Project Structure
+- `wine-quality.ipynb` — analysis and model training
+- `winequality-red.csv` — dataset, if included
+- `requirements.txt` — Python dependencies
+
+## Evaluation
+Report the measured test-set accuracy, precision, recall, F1-score, and confusion matrix here after verifying your final run.
+
+## How to Run
+1. Clone this repository.
+2. Install the required dependencies using `pip install -r requirements.txt`.
+3. Ensure the dataset is available at the path used in the notebook.
+4. Open `wine-quality.ipynb` in Jupyter Notebook.
+5. Run all cells in order.
+
+## Limitations
+The model predicts a binary quality category rather than the exact wine-quality score. Its predictions depend on the dataset and the selected classification threshold.
+
+## Future Improvements
+- Compare multiple classification algorithms.
+- Improve evaluation and model validation.
+- Build an interactive Streamlit application.
+- Deploy the application online.
+
+## Disclaimer
+This project is for educational and machine learning practice purposes.
